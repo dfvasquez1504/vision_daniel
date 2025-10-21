@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import base64
+from PIL import image
 from openai import OpenAI
 
 # Function to encode the image to base64
